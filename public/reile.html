@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="DevPundits PORTFOLIO / Web designer / Markup engineer">
+    <meta property="og:image" content="https://kuon.space/assets/img/ogp.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta property="og:site_name" content="DevPundits PORTFOLIO">
+    <meta property="og:locale" content="ja_JP">
+    <link rel="stylesheet" href="./assets/css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="./awwwards.css">
+    <meta property="og:url" content="https://kuon.space/reile.html">
+    <meta property="og:title" content="Our Project Showcase | DevPundits PORTFOLIO">
+    <title>Our Project Showcase | DevPundits PORTFOLIO</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115155070-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-115155070-1');
+    </script> -->
+    <style>
+        * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 
+    </style>
+</head>
+
+<body>
+    <header><a class="name" href="./">DevPundits</a>
+        <div class="wrap">
+            <div class="icons"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+               <!--  <a
+                    href="https://www.wantedly.com/users/48483598" target="_blank">Wantedly</a> -->
+            </div>
+            <div class="menuIcon js-menuBtn"></div>
+        </div>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="reile.html">WORKS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a class="js-contact" href="index.html#contact">CONTACT</a></li>
+                <li class="global-nav__sns"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+        </nav>
+        <div class="curtain"></div>
+        <div class="loader"></div>
+    </header>
+    <main id="barba-wrapper">
+        <div class="barba-container" data-namespace="underlayer">
+            <div class="page-top">
+                <div class="page-top__inner"><a class="back-arrow" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="34" viewBox="0 0 67 34"><g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-linecap="round" transform="translate(2 1)"><path stroke-width="2" d="M0,15.5533333 L64,15.5533333"/><polyline stroke-width="2" points="15.556 0 0 15.556 15.556 31.111"/></g></svg></a>
+                    <p class="scrollDown">SCROLLDOWN</p>
+                    <div class="title">
+                        <h2 class="title__text">Our Project<br>SHOWCASE</h2>
+                        <div class="border js-toRight"><span></span><span></span></div>
+                        <!-- <p class="title__lead">website</p>
+                        <div class="btn-wrap"><a class="btn" href="https://mens-reile.com/" target="_balnk">Visit site</a></div> -->
+                    </div>
+                    <div class="image image__reile"></div>
+                </div>
+            </div>
+            <section class="wrapper">
+                <div class="meta" data-emergence="hidden">
+                    <div class="meta__back"></div>
+                    <div class="content meta__text-wrap">
+                        <ul class="meta__text">
+                            <li>
+                                <p class="small-title">ROLE</p>
+                                <p>UI design / Coding</p>
+                            </li>
+                            <li>
+                                <p class="small-title">DATE</p>
+                                <p>OCT 2017</p>
+                            </li>
+                            <li>
+                                <p class="small-title">OVERVIEW</p>
+                                <p>Best Project</p>
+                            </li>
+                        </ul>
+                    </div>
+                   <!--  <div class="content"><img src="./assets/img/mockup.png" alt="Our Project Showcase"></div> -->
+                   <div class="content">
+                   <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="./assets/img/1.jpeg" style="width:100%">
+                     
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="./assets/img/mockup.png" style="width:100%">
+                      
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="./assets/img/mockup.png" style="width:100%">
+                     
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                </div>
+                </div>
+                <div class="meta" data-emergence="hidden">
+                    <div class="meta__back"></div>
+                    <div class="content meta__text-wrap">
+                        <ul class="meta__text">
+                            <li>
+                                <p class="small-title">ROLE</p>
+                                <p>UI design / Coding</p>
+                            </li>
+                            <li>
+                                <p class="small-title">DATE</p>
+                                <p>OCT 2017</p>
+                            </li>
+                            <li>
+                                <p class="small-title">OVERVIEW</p>
+                                <p>Best Project</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content"><img src="./assets/img/2.jpeg" alt="Our Project Showcase"></div>
+                </div>
+                <div class="meta" data-emergence="hidden">
+                    <div class="meta__back"></div>
+                    <div class="content meta__text-wrap">
+                        <ul class="meta__text">
+                            <li>
+                                <p class="small-title">ROLE</p>
+                                <p>UI design / Coding</p>
+                            </li>
+                            <li>
+                                <p class="small-title">DATE</p>
+                                <p>OCT 2017</p>
+                            </li>
+                            <li>
+                                <p class="small-title">OVERVIEW</p>
+                                <p>Best App ever</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content"><img src="./assets/img/3.jpeg" alt="Our Project Showcase"></div>
+                </div>
+                <div class="meta" data-emergence="hidden">
+                    <div class="meta__back"></div>
+                    <div class="content meta__text-wrap">
+                        <ul class="meta__text">
+                            <li>
+                                <p class="small-title">ROLE</p>
+                                <p>UI design / Coding</p>
+                            </li>
+                            <li>
+                                <p class="small-title">DATE</p>
+                                <p>OCT 2017</p>
+                            </li>
+                            <li>
+                                <p class="small-title">OVERVIEW</p>
+                                <p>Best Project</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content"><img src="./assets/img/4.png" alt="Our Project Showcase"></div>
+                </div>
+               <!--  <div class="text">
+                    <p class="heading-num">01</p>
+                    <div class="text__wrap">
+                        <h2 class="heading">CONCEPT</h2>
+                        <p class="text__works">大学が近く学生が主なターゲットなので、よくある理髪店のような無機質な雰囲気ではなく、欧米感のあるスタイリッシュな雰囲気を心掛けました。キービジュアルには、普段使用している道具や整髪料を並べたものを撮影し、こだわり感や職人感も演出しつつも雑誌のような見栄えになるよう調整しました。メインカラーには店内の床の色を少し暗くしたものを使用し、店内と雰囲気の差異が無いように調整しています。</p>
+                    </div>
+                </div> -->
+                <!-- <div class="big-image"></div> -->
+               <!--  <div class="text">
+                    <p class="heading-num">02</p>
+                    <div class="text__wrap">
+                        <h2 class="heading heading--left">DEVELOPMENT</h2>
+                        <p class="text__works">コーディングに関しては車輪の再発明はせず、シンプルなプラグインを活用しています。フェードインのスクロールアニメーションにはAOSを使用し、Instagramの投稿取得にはinstafeed.jsを使用しています。CMSにはWordpressを採用し、スマートフォンを使用してブログ更新を行うことができます。</p>
+                    </div>
+                </div> -->
+               <!--  <div class="kamp">
+                    <ul>
+                        <li><img src="./assets/img/reile_top.jpg" alt="TOP"></li>
+                        <li><img src="./assets/img/reile_about.jpg" alt="ABOUT"></li>
+                    </ul>
+                </div> -->
+                <div class="content content--mlarge back-btn-wrap"><a class="back-btn" href="index.html">BACK</a></div>
+            </section>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/jquery.fullPage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="./assets/js/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    <script src="./assets/js/common.min.js"></script>
+    <script>var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }</script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
